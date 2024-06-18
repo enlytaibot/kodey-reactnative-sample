@@ -30,15 +30,15 @@ In this sample, we will explore how Kodey.ai can create projects for react.
 
     step 1: Using GithubCreateNewBranch tool, Create a new branch with name <branch name to create> first and then do the steps below.
 
-    step 2: Using GithubCreateNewFile tool, Create a new file inside enlytai-react-sample-project/src/component directory that will have component for the signup screen. The file name should be SignupScreen.js.
+    step 2: Using GithubCreateNewFile tool, Create a new file inside src/component directory that will have component for the signup screen. The file name should be SignupScreen.js.
     Signup page should have signup form with username, email, password fields and a signup button. The signup button should be disabled if the username, email or password is empty.
     Use proper styling and beautify the form. Use normal html for the fields and not any react components.
 
-    step 3: Using GithubCreateNewFile tool, Create a new file inside enlytai-react-sample-project/src/component directory that will have component for the login screen. The file name should be LoginScreen.js.
+    step 3: Using GithubCreateNewFile tool, Create a new file inside src/component directory that will have component for the login screen. The file name should be LoginScreen.js.
     Login page should have login form for username, password and a login button. The login button should be disabled if the username or password is empty. There should be option for forget password and signup link.
     The signup link should navigate to the signup page created above. Use proper styling and beautify the form. Use normal html for the fields and not any react components.
 
-    step 4: Using webcrawler tool, understand how routing is done from https://www.geeksforgeeks.org/reactjs-router/ And then apply the understanding to route to newly created components. Using AzureDevopsRepositoryGetFile tool, get the content of the file enlytai-react-sample-project/src/App.js and update the App.js file to have the links that navigates to singup and login page created above.
+    step 4: Using webcrawler tool, understand how routing is done from https://www.geeksforgeeks.org/reactjs-router/ And then apply the understanding to route to newly created components. Using AzureDevopsRepositoryGetFile tool, get the content of the file src/App.js and update the App.js file to have the links that navigates to singup and login page created above.
     Also the App.js file should have detail about the company with some pictures and text. The company name is Enlytai. The company is a software development company. The company is located in New York, USA.
     The App.js file should have links for login and signup page. The login link should navigate to the login page and the signup link should navigate to the signup page.
 
@@ -61,15 +61,15 @@ In this sample, we will explore how Kodey.ai can create projects for react.
 
     step 1: Using AzureDevopsBranchesCreateBranch tool, Create a new branch with name <branch name to create> first and then do the steps below.
 
-    step 2: Using BitBucketWriteCode tool, Create a new file inside enlytai-react-sample-project/src/component directory that will have component for the signup screen. The file name should be SignupScreen.js.
+    step 2: Using BitBucketWriteCode tool, Create a new file inside src/component directory that will have component for the signup screen. The file name should be SignupScreen.js.
     Signup page should have signup form with username, email, password fields and a signup button. The signup button should be disabled if the username, email or password is empty.
     Use proper styling and beautify the form. Use normal html for the fields and not any react components.
 
-    step 3: Using BitBucketWriteCode tool, Create a new file inside enlytai-react-sample-project/src/component directory that will have component for the login screen. The file name should be LoginScreen.js.
+    step 3: Using BitBucketWriteCode tool, Create a new file inside src/component directory that will have component for the login screen. The file name should be LoginScreen.js.
     Login page should have login form for username, password and a login button. The login button should be disabled if the username or password is empty. There should be option for forget password and signup link.
     The signup link should navigate to the signup page created above. Use proper styling and beautify the form. Use normal html for the fields and not any react components.
 
-    step 4: Using webcrawler tool, understand how routing is done from https://www.geeksforgeeks.org/reactjs-router/ And then apply the understanding to route to newly created components. Using AzureDevopsRepositoryGetFile tool, get the content of the file enlytai-react-sample-project/src/App.js and update the App.js file to have the links that navigates to singup and login page created above.
+    step 4: Using webcrawler tool, understand how routing is done from https://www.geeksforgeeks.org/reactjs-router/ And then apply the understanding to route to newly created components. Using AzureDevopsRepositoryGetFile tool, get the content of the file src/App.js and update the App.js file to have the links that navigates to singup and login page created above.
     Also the App.js file should have detail about the company with some pictures and text. The company name is Enlytai. The company is a software development company. The company is located in New York, USA.
     The App.js file should have links for login and signup page. The login link should navigate to the login page and the signup link should navigate to the signup page.
 
@@ -94,15 +94,15 @@ In this sample, we will explore how Kodey.ai can create projects for react.
 
     step 1: Using BitBucketCreateNewBranch tool, Create a new branch with name <branch name to create> first and then do the steps below.
 
-    step 2: Using BitBucketWriteCode tool, Create a new file inside enlytai-react-sample-project/src/component directory that will have component for the signup screen. The file name should be SignupScreen.js.
+    step 2: Using BitBucketWriteCode tool, Create a new file inside src/component directory that will have component for the signup screen. The file name should be SignupScreen.js.
     Signup page should have signup form with username, email, password fields and a signup button. The signup button should be disabled if the username, email or password is empty.
     Use proper styling and beautify the form. Use normal html for the fields and not any react components.
 
-    step 3: Using BitBucketWriteCode tool, Create a new file inside enlytai-react-sample-project/src/component directory that will have component for the login screen. The file name should be LoginScreen.js.
+    step 3: Using BitBucketWriteCode tool, Create a new file inside src/component directory that will have component for the login screen. The file name should be LoginScreen.js.
     Login page should have login form for username, password and a login button. The login button should be disabled if the username or password is empty. There should be option for forget password and signup link.
     The signup link should navigate to the signup page created above. Use proper styling and beautify the form. Use normal html for the fields and not any react components.
 
-    step 4: Using webcrawler tool, understand how routing is done from https://www.geeksforgeeks.org/reactjs-router/ And then apply the understanding to route to newly created components. Using BitBucketGetFileContent tool, get the content of the file enlytai-react-sample-project/src/App.js and update the App.js file to have the links that navigates to singup and login page created above.
+    step 4: Using webcrawler tool, understand how routing is done from https://www.geeksforgeeks.org/reactjs-router/ And then apply the understanding to route to newly created components. Using BitBucketGetFileContent tool, get the content of the file src/App.js and update the App.js file to have the links that navigates to singup and login page created above.
     Also the App.js file should have detail about the company with some pictures and text. The company name is Enlytai. The company is a software development company. The company is located in New York, USA.
     The App.js file should have links for login and signup page. The login link should navigate to the login page and the signup link should navigate to the signup page.
 
