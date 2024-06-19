@@ -21,6 +21,8 @@ In this sample, we will explore how Kodey.ai can create projects for react.
 
     repository-to-work-on: kodey-react-native-sample
 
+    repository-to-work-on: kodey-reactnative-sample
+    
     branch name to create: feature/login-signup
 
     Information to agent: Do as the steps below are defined one by one. You are working in <platform> repo so make sure to use tools related to <platform> repo. 
