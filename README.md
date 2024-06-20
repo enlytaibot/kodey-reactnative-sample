@@ -4,7 +4,7 @@ This repository is an example Kodey.ai Coding Agent Workflow
 
 ## Objectives
 
-In this sample, we will explore how Kodey.ai can create projects for react.
+In this sample, we will explore how Kodey.ai can create projects for React Native.
 
 ## Project Setup & Steps 
 
