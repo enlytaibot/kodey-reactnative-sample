@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import SignupScreen from './component/SignupScreen';
+import LoginScreen from './component/LoginScreen';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/signup">Signup</Link>
+            </li>
+            <li>
+              <Link to="/login">Login</Link>
+            </li>
+          </ul>
+        </nav>
+
+        <Route path="/signup" component={SignupScreen} />
+        <Route path="/login" component={LoginScreen} />
+
+        <div style={{ margin: '20px' }}>
+          <h2>About Enlytai</h2>
+          <p>Enlytai is a leading software development company based in New York, USA. We specialize in creating innovative solutions that empower businesses worldwide.</p>
+          <img src="company-logo.png" alt="Enlytai Logo" />
+        </div>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
